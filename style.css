@@ -1,0 +1,106 @@
+nav{
+    background-color: #FCEEF1;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 200px;
+}
+.nav-details>h1{
+    font-size: 30px;
+}
+
+button{
+    border-radius: 5px;
+    background-color: #E45472;
+    color: #ffffff;
+    border: 0px;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    padding: 15px 35px;
+}
+.main-details{
+    text-align: center;
+    padding-top: 100px;
+    font-size: 25px;
+}
+p, figcaption{
+    font-size: 20px;
+}
+h1, h2, h3, h4, h5, h6{
+    font-size: 50px;
+}
+figcaption{
+    text-decoration: underline;
+}
+.main-details-images{
+    margin: 20px 100px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: space-between;
+}
+.flower-image{
+    border: 1px solid red;
+    padding: 10px;
+    border-top-left-radius: 250px;
+    border-top-right-radius: 250px;
+    padding: 50px;
+    margin: 10px;
+    border-style: none;
+    
+}
+.support-section{
+    background-color: #F4F4F4;
+    display: flex;
+    text-align: center;
+    margin: 80px 100px;
+    
+}
+.support{
+    padding: 50px 100px;
+}
+
+
+/* offer */
+.offer-section{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 300px;
+    background-color: #FDF6F8;
+}
+.offer-details>h3{
+    font-size: 25px;
+}
+.instagram-section{
+    text-align: center;
+}
+.card-section{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: space-between;
+    margin: 80px 200px;
+}
+.latest-deal{
+    background-image: url('Flower Asset/Rectangle\ 9.png');
+    background-repeat: no-repeat;
+    text-align: center;
+    margin: 100px 200px;
+    width: auto;
+    height: 500px;
+    padding-top: 100px;
+}
+.latest-deal>input{
+    width: 300px;
+    height: 45px;
+}
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding-top: 100px;
+    height: 300px;
+}
